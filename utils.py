@@ -7,7 +7,8 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
-FILE_PATH = "/Users/leonardowu/ACP_Dashboard/Items_Whitby_Extract.xlsx"
+import os
+FILE_PATH = os.path.join(os.path.dirname(__file__), "Items_Whitby_Extract.xlsx")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
